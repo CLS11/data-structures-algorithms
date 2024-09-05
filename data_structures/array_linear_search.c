@@ -24,10 +24,11 @@ int main(){
 		scanf("%d\n",&a[i]);
 	}
 
-	printf("Enter the element you want to insert\n");
+	printf("Enter the element you want to search\n");
 	scanf("%d",&element);
 
 	printf("The element %d is found at %d index",element, linear_search(a,n,element));
+
 
 	return 1;
 }
