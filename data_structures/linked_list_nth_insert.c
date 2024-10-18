@@ -24,6 +24,7 @@ void insert(int data, int n) {
   }
   temp1->next = temp2->next;
   temp2->next = temp1;
+  
 }
 
 void print() {
